@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Courses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>LearnOnline</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#courses">Courses</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Learn New Skills Online</h2>
+    <p>Choose a course and start learning today!</p>
+    <input type="text" id="search"
+           placeholder="Search courses...">
+</section>
+
+<section id="courses">
+    <h2>Our Courses</h2>
+
+    <div class="courses">
+        <div class="card">
+            <h3>HTML & CSS</h3>
+            <p>Learn website design.</p>
+            <button onclick="enroll('HTML & CSS')">
+                Enroll Now
+            </button>
+        </div>
+
+        <div class="card">
+            <h3>Java</h3>
+            <p>Learn Java programming.</p>
+            <button onclick="enroll('Java')">
+                Enroll Now
+            </button>
+        </div>
+
+        <div class="card">
+            <h3>JavaScript</h3>
+            <p>Learn web programming.</p>
+            <button onclick="enroll('JavaScript')">
+                Enroll Now
+            </button>
+        </div>
+    </div>
+</section>
+
+<footer id="contact">
+    <p>Contact: learnonline@example.com</p>
+    <p>© 2026 LearnOnline</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
